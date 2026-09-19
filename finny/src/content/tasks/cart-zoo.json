@@ -1,0 +1,18 @@
+{
+  "id": "cart-zoo", "topic": "purchases", "type": "cart", "unlockPeriod": 1,
+  "title": "Корзина для питомца",
+  "skill": "Выбирать покупки при ограниченном бюджете",
+  "competencies": [2, 3],
+  "intro": "В магазине у тебя 40 монет. Питомцу нужны еда и мыло. Собери корзину и оставь хотя бы 5 монет.",
+  "rewards": { "1": 3, "2": 7, "3": 10 },
+  "budget": 40, "minLeft": 5,
+  "items": [
+    { "id": "food", "label": "Корм", "icon": "bowl", "price": 15, "need": true, "why": "Еда нужна каждый день." },
+    { "id": "soap", "label": "Мыло", "icon": "bath", "price": 10, "need": true, "why": "Чистота — это здоровье." },
+    { "id": "ball", "label": "Мячик", "icon": "ball", "price": 12, "need": false, "why": "Игрушка радует, но без неё можно." },
+    { "id": "bow", "label": "Ленточка", "icon": "bow", "price": 8, "need": false, "why": "Украшение — приятная мелочь." },
+    { "id": "cookie", "label": "Лакомство", "icon": "cake", "price": 14, "need": false, "why": "Вкусно, но это не обед." },
+    { "id": "mouse", "label": "Игрушка-мышка", "icon": "mouse", "price": 18, "need": false, "why": "Забавно, но не обязательно." }
+  ],
+  "learn": "Сначала нужное. Потом желаемое — если остались монеты. И хорошо, когда что-то остаётся про запас."
+}
