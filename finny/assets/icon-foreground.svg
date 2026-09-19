@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Питомец Финни: мятный котик с бантиком и монеткой. Композиция вписана в центральные 66% (зона адаптивной иконки). -->
+  <g>
+    <ellipse cx="512" cy="800" rx="230" ry="26" fill="#000" opacity=".12"/>
+    <!-- уши -->
+    <path d="M300 420L272 232L448 330Z" fill="#8FE3B8"/>
+    <path d="M326 392L308 292L408 348Z" fill="#F7B8C6"/>
+    <path d="M724 420L752 232L576 330Z" fill="#8FE3B8"/>
+    <path d="M698 392L716 292L616 348Z" fill="#F7B8C6"/>
+    <!-- голова -->
+    <circle cx="512" cy="540" r="250" fill="#8FE3B8"/>
+    <circle cx="376" cy="600" r="46" fill="#F7A9B8" opacity=".9"/>
+    <circle cx="648" cy="600" r="46" fill="#F7A9B8" opacity=".9"/>
+    <!-- лоб -->
+    <path d="M478 330l10 44M512 322v50M546 330l-10 44" stroke="#3FB07B" stroke-width="16" stroke-linecap="round"/>
+    <!-- глаза-улыбки -->
+    <path d="M372 520Q412 460 452 520" stroke="#2B2540" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <path d="M572 520Q612 460 652 520" stroke="#2B2540" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <!-- нос и рот -->
+    <path d="M488 572L536 572L512 604Z" fill="#E86F8A"/>
+    <path d="M440 626Q512 720 584 626Z" fill="#2B2540"/>
+    <path d="M478 676Q512 712 546 676Q512 654 478 676Z" fill="#F27C8E"/>
+    <!-- усы -->
+    <path d="M330 590L214 566M330 626L214 640M694 590L810 566M694 626L810 640" stroke="#2B2540" stroke-width="12" stroke-linecap="round" opacity=".5"/>
+    <!-- космический шлем -->
+    <circle cx="512" cy="540" r="282" fill="rgba(170,215,255,.07)" stroke="#d7e9ff" stroke-width="18"/>
+    <path d="M330 400Q380 320 470 298" stroke="#fff" stroke-width="22" fill="none" stroke-linecap="round" opacity=".8"/>
+    <ellipse cx="512" cy="800" rx="236" ry="34" fill="#8fa4ff" stroke="#d7e9ff" stroke-width="14"/>
+    <circle cx="352" cy="800" r="12" fill="#ffe066"/><circle cx="672" cy="800" r="12" fill="#ffe066"/>
+    <!-- звёзды -->
+    <path d="M250 300l14 34 36 4-27 24 8 36-31-19-31 19 8-36-27-24 36-4z" fill="#ffe066"/>
+    <path d="M800 470l10 24 26 3-19 17 6 26-23-14-23 14 6-26-19-17 26-3z" fill="#fff"/>
+    <!-- бантик -->
+    <g transform="translate(700 322)">
+      <path d="M0 0L-88 -56L-88 56Z" fill="#F2647A"/>
+      <path d="M0 0L88 -56L88 56Z" fill="#F2647A"/>
+      <circle r="28" fill="#D9425A"/>
+    </g>
+    <!-- монетка -->
+    <g transform="translate(704 736)">
+      <circle r="118" fill="#F5B301" stroke="#D18F00" stroke-width="20"/>
+      <circle r="76" fill="none" stroke="#FFE07A" stroke-width="18"/>
+      <path d="M-30 34L0 -40L30 34M-20 14H20" stroke="#B87700" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
