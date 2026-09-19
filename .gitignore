@@ -1,0 +1,29 @@
+.DS_Store
+**/.DS_Store
+node_modules/
+dist/
+*.log
+.vitest/
+
+# Подпись — никогда в репозитории
+keystore.properties
+*.jks
+*.keystore
+
+# Android / Gradle
+**/.gradle/
+**/build/
+**/.kotlin/
+**/local.properties
+**/*.iml
+.idea/
+
+# Capacitor sync artifacts
+finny/android/app/src/main/assets/public/
+finny/android/app/src/main/assets/capacitor.config.json
+finny/android/app/src/main/assets/capacitor.plugins.json
+finny/android/capacitor-cordova-android-plugins/
+
+# Релизные бинарники
+**/release/*.apk
+**/release/*.aab
