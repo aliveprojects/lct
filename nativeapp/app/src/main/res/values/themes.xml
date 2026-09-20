@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="space_bg">#0A0D35</color>
+
+    <!-- Тёмная тема окна: она же видна под строкой состояния и системной навигацией при edge-to-edge -->
+    <style name="Theme.Finni" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/space_bg</item>
+        <item name="android:statusBarColor">@color/space_bg</item>
+        <item name="android:navigationBarColor">@color/space_bg</item>
+    </style>
+
+    <style name="Theme.Finni.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/space_bg</item>
+        <item name="postSplashScreenTheme">@style/Theme.Finni</item>
+    </style>
+</resources>
