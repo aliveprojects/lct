@@ -1,0 +1,32 @@
+{
+  "species": [
+    { "id": "cat", "name": "Котик" },
+    { "id": "dog", "name": "Щенок" },
+    { "id": "bunny", "name": "Зайка" },
+    { "id": "dino", "name": "Дино" }
+  ],
+  "colors": [
+    { "id": "peach", "name": "Персик", "body": "#FFB37A", "belly": "#FFE6D0", "dark": "#DE8347" },
+    { "id": "sky", "name": "Небо", "body": "#8EC9FF", "belly": "#E3F2FF", "dark": "#4C97DE" },
+    { "id": "mint", "name": "Мята", "body": "#8FE3B8", "belly": "#E3F9EE", "dark": "#3FB07B" },
+    { "id": "lilac", "name": "Сирень", "body": "#C6A8FF", "belly": "#EFE6FF", "dark": "#8A65D8" }
+  ],
+  "accessories": [
+    { "id": "none", "name": "Без украшения", "atStart": true },
+    { "id": "bow", "name": "Бантик", "atStart": true },
+    { "id": "glasses", "name": "Очки", "atStart": true },
+    { "id": "helmet", "name": "Шлем", "atStart": true },
+    { "id": "flower", "name": "Цветочек", "atStart": false },
+    { "id": "scarf", "name": "Шарф", "atStart": false },
+    { "id": "hat", "name": "Шляпа", "atStart": false }
+  ],
+  "stages": [
+    { "id": 1, "name": "Малыш", "blurb": "Вы только познакомились. Учимся вместе." },
+    { "id": 2, "name": "Подросток", "blurb": "Уже многое умеет и радуется заботе." },
+    { "id": 3, "name": "Взрослый друг", "blurb": "Настоящий помощник и друг." },
+    { "id": 4, "name": "Мастер копилки", "blurb": "Знает, как заботиться и как копить." }
+  ],
+  "defaultPetName": "Финни",
+  "petNames": ["Финни", "Пушок", "Ириска", "Бублик", "Лучик", "Тучка", "Пончик", "Зефир", "Бусинка", "Мандаринка", "Гоша"],
+  "playerNames": ["Звёздочка", "Ракета", "Капитан", "Мечтатель", "Смельчак", "Искорка"]
+}

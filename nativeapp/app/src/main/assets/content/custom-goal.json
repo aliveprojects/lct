@@ -1,0 +1,10 @@
+{
+  "presets": [
+    { "icon": "gift", "title": "Подарок другу" },
+    { "icon": "star", "title": "Сюрприз для питомца" },
+    { "icon": "book", "title": "Моя книжка" },
+    { "icon": "park", "title": "Прогулка" },
+    { "icon": "party", "title": "Мой праздник" },
+    { "icon": "house", "title": "Игрушечный дом" }
+  ]
+}
