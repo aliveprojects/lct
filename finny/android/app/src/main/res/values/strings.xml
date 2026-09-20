@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Финни</string>
+    <string name="title_activity_main">Финни</string>
+    <string name="package_name">app.finni.kids</string>
+    <string name="custom_url_scheme">app.finni.kids</string>
+</resources>
