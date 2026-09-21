@@ -1,0 +1,2 @@
+a40f209b4a5da422fa10ee11f049e74944c1172cf51d8c32ebe4ebe00e83fe09  finni-2.0.0-native-release.apk
+57195b4e97cf3702a32e90abd6585090d757f8fec1bba322174fcb96994b8fb9  finni-2.0.0-native-release.aab
